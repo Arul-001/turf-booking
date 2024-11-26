@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Turf/Play Area Booking</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <nav>
+          <a href="index.html"
+            ><img src="./images/logo.png" alt="Image not available"
+          /></a>
+          <div class="nav-links">
+            <ul>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="book-slot.html">Turf/Play Area Booking</a></li>
+              <li><a href="products.html">Shop for Sports Equipment</a></li>
+              <li><a href="dashboard.html">User Dashboard</a></li>
+              <li><a href="about-Us.html">About Us</a></li>
+              <li><a href="contact-Us.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section class="booking-head"> 
+      
+      <div class="booking">
+        <h1>Book a Turf or Play Area</h1>
+        <p>Select the type of turf, location, and availability below to make your booking.</p>
+
+        <form class="filters">
+          <label for="turf-type">Turf Type:</label>
+          <select id="turf-type" name="turf-type">
+            <option value="indoor">Indoor</option>
+            <option value="outdoor">Outdoor</option>
+          </select>
+
+          <label for="location">Location:</label>
+          <select id="location" name="location">
+            <option value="salem">Salem</option>
+            <option value="coimbatore">Coimbatore</option>
+            <option value="trichy">Trichy</option>
+          </select>
+
+          <label for="sport">Sport:</label>
+          <select id="sport" name="sport">
+            <option value="football">Football</option>
+            <option value="cricket">Cricket</option>
+            <option value="tennis">Tennis</option>
+          </select>
+
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" />
+
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" />
+
+        </form>
+        
+        <button type="submit">Book Now</button>
+      </div>
+    </section>
+      <footer>
+        <div class="footer-content">
+          <p>&copy; 2024 Book N Play. All Rights Reserved.</p>
+          <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+          </div>
+          <p><a href="contact-Us.html">Contact Us</a> | <a href="about-Us.html">About Us</a></p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
